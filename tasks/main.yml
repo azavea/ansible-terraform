@@ -22,4 +22,4 @@
   unarchive: src="/usr/local/src/terraform_{{ terraform_version }}_linux_amd64.zip"
              dest=/usr/local/bin
              copy=no
-  when: current_terraform_version.rc != 0 or terraform_downloaded | changed
+  when: current_terraform_version.rc != 0 or terraform_downloaded.changed
