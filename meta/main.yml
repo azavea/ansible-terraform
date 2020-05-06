@@ -12,7 +12,4 @@ galaxy_info:
   categories:
   - cloud
   - system
-dependencies:
-  - src: azavea.unzip
-    version: 0.1.2
-    name: azavea.unzip
+dependencies: []
